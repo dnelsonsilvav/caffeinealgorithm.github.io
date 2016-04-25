@@ -1,0 +1,23 @@
+---
+layout: default
+title: Blog
+---
+
+<ul class='post-list'>
+	{% for post in site.posts %}
+		<li>
+			<article>
+				<a href='{{ site.url }}{{ post.url }}' style='color: #0095da'>{{ post.title }}</a>
+				<a>
+					<span class='entry-date'>
+						<time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: '%B %d, %Y' }}</time>
+					</span>
+				</a>
+				<p style='font-size: 15px'>
+					{{ post.content | strip_html | truncatewords: 50}}
+					<a href='{{ post.url }}' style='color: #0095da'> [Read more...]</a>
+				</p>
+			</article>
+		</li>
+	{% endfor %}
+</ul>
