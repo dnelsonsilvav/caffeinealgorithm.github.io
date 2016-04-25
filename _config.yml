@@ -1,0 +1,39 @@
+title: Caffeine Algorithm
+description: A development organization that loves caffeine and algorithms.
+url: http://caffeinealgorithm.com
+permalink: '/:title'
+logo: logo.png
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+page_ext: md
+post_ext: md
+
+page_layout: default
+post_layout: post
+
+markdown: kramdown
+
+organization:
+  name: Caffeine Algorithm
+  email: contact@caffeinealgorithm.com
+  twitter: caffealgorithm
+  linkedin: 
+  google:
+    plus: 116668182763944681972
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  github: caffeinealgorithm
+
+author:
+  name: Nelson Silva
+  avatar: avatar.png
+  email: devwop@caffeinealgorithm.com
+  bio: A developer that breathes caffeine.
+  twitter: devwop_
+  linkedin: 
+  github: devwop
