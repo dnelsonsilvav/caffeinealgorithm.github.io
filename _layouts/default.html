@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+	{% include head.html %}
+
+	<body id='page'>
+		{% include navigation.html %}
+
+		<div id='main' role='main'>
+			<article class='entry'>
+				{% if page.image.feature %}
+					<img class='entry-feature-image' src='{{ site.url }}/img/{{ page.image.feature }}'
+					{% if site.logo == null %}
+						style='margin-top: 0'
+					{% endif %}/>
+				{% endif %}
+				<div class='entry-wrapper'>
+					<header class='entry-header'>
+						<h1 class='entry-title' style='font-size: 32px'>{{ page.title }}</h1>
+					</header>
+					<div class='entry-content' style='text-align: justify'>
+						{{ content }}
+					</div>
+				</div>
+			</article>
+		</div>
+
+		<div class='footer-wrapper'>
+			{% include footer.html %}
+		</div>
+
+		{% include scripts.html %}
+	</body>
+</html>
