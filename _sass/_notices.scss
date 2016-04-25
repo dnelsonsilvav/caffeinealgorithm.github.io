@@ -1,0 +1,14 @@
+.notice {
+	margin-top: 1.5em;
+	padding: .5em 1em;
+	text-indent: 0;
+	@include font-size(16);
+	background-color: lighten($color, 95);
+	border: 1px solid lighten($color, 90);
+	@include rounded(4px);
+}
+
+.upgrade {
+	padding: 10px;
+	text-align: center;
+}
