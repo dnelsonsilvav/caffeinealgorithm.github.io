@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+	{% include head.html %}
+
+	<body id='post'>
+		{% include navigation.html %}
+
+		<div id='main' role='main'>
+			<article class='entry'>
+				{% if page.image.feature %}
+					<img class='entry-feature-image' src='{{ site.url }}/img/{{ page.image.feature }}'
+					{% if site.logo == null %}
+						style='margin-top: 0'
+					{% endif %}>
+				{% endif %}
+				<div class='entry-wrapper'>
+					<header class='entry-header'>
+						{% if page.link %}
+							<h1 class='entry-title' style='text-align: justify'><a href='{{ page.link }}'>
+							{% if page.headline %}
+								{{ page.headline }}
+							{% else %}
+								{{ page.title }}
+							{% endif %} 
+							<span class='link-arrow'>&rarr;</span></a></h1>
+						{% else %}
+							<h1 class='entry-title' style='text-align: justify'>
+								{% if page.headline %}
+									{{ page.headline }}
+								{% else %}
+									{{ page.title }}
+								{% endif %}
+							</h1>
+						{% endif %}
+					</header>
+					<footer class='entry-meta'>
+						{% assign author = site.author %}
+
+						{% if author.avatar contains 'http' %}
+							<img class='bio-photo' src='{{ author.avatar }}'></a>
+						{% elsif author.avatar %}
+							<img class='bio-photo' src='{{ site.url }}/img/{{ author.avatar }}'></a>
+						{% endif %}
+
+						<span class='author vcard'>BY 
+							<span class='fn'>{{ author.name }}</span>
+						</span>
+
+						<span class='entry-date date published'>
+							<time datetime='{{ page.date | date_to_xmlschema }}'>
+								<i class='fa fa-calendar-o'></i> 
+								{{ page.date | date: '%B %d, %Y' }}
+							</time>
+						</span>
+
+						{% if page.modified %}
+							<span class='entry-date date modified'>
+								<time datetime='{{ page.modified }}'>
+									<i class='fa fa-pencil'></i> {{ page.modified | date: '%B %d, %Y' }}
+								</time>
+							</span>
+						{% endif %}
+
+						{% if page.ads == true %}
+							{% include ad-sidebar.html %}
+						{% endif %}
+					</footer>
+
+					<div class='entry-content' style='text-align: justify'>
+						{{ content }}
+					</div>
+				</div>
+
+				<nav class='pagination' role='navigation'>
+					{% if page.previous %}
+						<a class='btn' href='{{ site.url }}{{ page.previous.url }}' title='{{ page.previous.title }}'>Previous</a>
+					{% endif %}
+					{% if page.next %}
+						<a class='btn' href='{{ site.url }}{{ page.next.url }}' title='{{ page.next.title }}'>Next</a>
+					{% endif %}
+				</nav>
+			</article>
+		</div>
+
+		<div class='footer-wrapper'>
+			{% include footer.html %}
+		</div>
+
+		{% include scripts.html %}
+	</body>
+</html>
