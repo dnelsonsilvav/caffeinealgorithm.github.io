@@ -6,22 +6,22 @@
 	<span>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.organization.name }} - All rights reserved.</span>
 	<div class='social-icons'>
 		{% if site.organization.twitter %}
-			<a href='https://twitter.com/{{ site.organization.twitter }}' title='{{ site.organization.name}} on Twitter' target='_blank'>
+			<a href='https://twitter.com/{{ site.organization.twitter }}' title='{{ site.organization.name }} on Twitter' target='_blank'>
 				<i class='fa fa-twitter-square fa-2x'></i>
 			</a>
 		{% endif %}
 		{% if site.organization.google.plus %}
-			<a href='https://plus.google.com/b/116668182763944681972/116668182763944681972/about?pageId={{ site.organization.google.plus }}' title='{{ site.organization.name}} on Google+' target='_blank'>
+			<a href='https://plus.google.com/+{{ site.organization.google.plus }}' title='{{ site.organization.name }} on Google+' target='_blank'>
 				<i class='fa fa-google-plus-square fa-2x'></i>
 			</a>
 		{% endif %}
-		{% if site.organization.linkedin %}
-			<a href='https://linkedin.com/in/{{ site.organization.linkedin }}' title='{{ site.organization.name}} on LinkedIn' target='_blank'>
-				<i class='fa fa-linkedin-square fa-2x'></i>
+		{% if site.organization.google.youtube %}
+			<a href='https://www.youtube.com/c/{{ site.organization.google.youtube }}' title='{{ site.organization.name }} on YouTube' target='_blank'>
+				<i class='fa fa-youtube-square fa-2x'></i>
 			</a>
 		{% endif %}
 		{% if site.organization.github %}
-			<a href='https://github.com/{{ site.organization.github }}' title='{{ site.organization.name}} on GitHub' target='_blank'>
+			<a href='https://github.com/{{ site.organization.github }}' title='{{ site.organization.name }} on GitHub' target='_blank'>
 				<i class='fa fa-github-square fa-2x'></i>
 			</a>
 		{% endif %}
