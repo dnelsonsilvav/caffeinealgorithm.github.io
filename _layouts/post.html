@@ -37,9 +37,9 @@
 						{% assign author = site.author %}
 
 						{% if author.avatar contains 'http' %}
-							<img class='bio-photo' src='{{ author.avatar }}'></a>
+							<img class='bio-photo' src='{{ author.avatar }}'/>
 						{% elsif author.avatar %}
-							<img class='bio-photo' src='{{ site.url }}/img/{{ author.avatar }}'></a>
+							<img class='bio-photo' src='{{ site.url }}/img/{{ author.avatar }}'/>
 						{% endif %}
 
 						<span class='author vcard'>BY 
