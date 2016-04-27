@@ -31,6 +31,9 @@ organization:
     # ad-sidebar-slot: 7676996160
     ad-sidebar-slot: 
   github: caffeinealgorithm
+  statcounter:
+    project: 10935538
+    security: cce7c3f8
 
 author:
   name: Nelson Silva
