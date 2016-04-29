@@ -15,6 +15,20 @@
 		ga('create', '{{ site.organization.google.analytics }}', 'auto');
 		ga('send', 'pageview');
 	</script>
+
+	<script data-cfasync='false' type='text/javascript'>
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en',
+				includedLanguages: 'af,ar,bg,cs,de,el,en,eo,es,fa,fr,hu,id,it,ja,ko,la,lt,nl,pl,pt,ro,ru,sv,tr,uk,zh-CN,zh-TW',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+				autoDisplay: false,
+				gaTrack: true,
+				gaId: '{{ site.organization.google.analytics }}'
+			}, 'google_translate_element');
+		};
+	</script>
+	<script data-cfasync='false' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'></script>
 {% endif %}
 
 {% if site.organization.statcounter.project and site.organization.statcounter.security %}
@@ -26,9 +40,9 @@
 		document.write('<script type="text/javascript" src="' + scJsHost + 'statcounter.com/counter/counter.js"></' + 'script>');
 	</script>
 	<noscript>
-		<div class="statcounter">
-			<a title="shopify analytics ecommerce" href="http://statcounter.com/shopify/" target="_blank">
-				<img class="statcounter" src="//c.statcounter.com/{{ site.organization.statcounter.project }}/0/{{ site.organization.statcounter.security }}/1/" alt="shopify analytics ecommerce">
+		<div class='statcounter'>
+			<a title='shopify analytics ecommerce' href='http://statcounter.com/shopify/' target='_blank'>
+				<img class='statcounter' src='//c.statcounter.com/{{ site.organization.statcounter.project }}/0/{{ site.organization.statcounter.security }}/1/' alt='shopify analytics ecommerce'>
 			</a>
 		</div>
 	</noscript>
