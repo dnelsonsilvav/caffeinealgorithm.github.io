@@ -22,6 +22,7 @@
 		@include font-size(14, no);
 		text-transform: uppercase;
 		display: none;
+		color: $text-color;
 		@include media($medium) {
 			display: inline;
 		}
