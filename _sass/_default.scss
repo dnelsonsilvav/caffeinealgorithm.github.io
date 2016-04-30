@@ -159,12 +159,8 @@ span + .entry-title {
 		@include span-columns(9.5);
 	}
 
-	p > a,
-	li > a {
-		border-bottom: 1px dotted lighten($link-color, 50);
-		&:hover {
-			border-bottom-style: solid;
-		}
+	a, a:hover {
+		color: $color;
 	}
 }
 
@@ -201,7 +197,7 @@ span + .entry-title {
 	}
 
 	li {
-		@include font-size(16,no,18);
+		@include font-size(16, no, 18);
 		border-bottom: 1px solid $border-color;
 		list-style-type: none;
 	}
@@ -218,7 +214,7 @@ span + .entry-title {
 		border-left: 2px solid transparent;
 		border-bottom: 0 solid transparent;
 		&:hover, &:focus {
-			background: lighten($border-color,5);
+			background: lighten($border-color, 5);
 		}
 	}
 }
