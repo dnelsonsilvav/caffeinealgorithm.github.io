@@ -25,7 +25,7 @@ The same can be converted or translated into machine code through build or inter
 * Medium level: symbols that can be directly translated into machine code, but also complex symbols which are converted by a compiler (C, C++, etc.);
 * High level: more complex symbols, intelligible for human beings and non-executable directly by the machine at the level of algorithmic specification (Java, Pascal, SQL, etc.);
 
-## Programming languages
+### Programming languages
 
 Java, C, C++, Python, C#, PHP, JavaScript, Perl, Ruby, Assembly, Visual Basic, Swift, Objective-C, MATLAB, Pascal, R, ...
 
