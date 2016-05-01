@@ -81,7 +81,7 @@ span + .entry-title {
 .entry-wrapper {
 	@include outer-container;
 	margin-top: 0;
-	margin-bottom: 3em;
+	margin-bottom: 0.5em;
 	padding-right: $gutter;
 	padding-left: $gutter;
 }
