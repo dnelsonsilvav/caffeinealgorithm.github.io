@@ -32,7 +32,7 @@
 	<script data-cfasync='false' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'></script>
 {% endif %}
 
-{% if site.organization.statcounter.project and site.organization.statcounter.security %}
+{% if site.organization.statcounter.project and site.organization.statcounter.security and site.url == 'http://caffeinealgorithm.com/' %}
 	<script data-cfasync='false' type='text/javascript'>
 		var sc_project = {{ site.organization.statcounter.project }};
 		var sc_invisible = 1;
