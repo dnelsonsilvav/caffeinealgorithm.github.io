@@ -4,7 +4,7 @@ title: Blog
 ---
 
 <ul class='post-list'>
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 		<li>
 			<article>
 				<a href='{{ site.url }}{{ post.url }}' style='color: #0095da'>{{ post.title }}</a>
@@ -14,10 +14,46 @@ title: Blog
 					</span>
 				</a>
 				<p style='font-size: 15px'>
-					{{ post.content | strip_html | truncatewords: 50}}
+					{{ post.content | strip_html | truncatewords: 35}}
 					<a href='{{ post.url }}' style='color: #0095da'> [Read more...]</a>
 				</p>
 			</article>
 		</li>
 	{% endfor %}
+</ul>
+
+<ul class='pager'>
+	{% if paginator.previous_page %}
+		<li style='float: left'>
+			<a href='{{ paginator.previous_page_path }}'>
+				<span aria-hidden='true'>&larr;&nbsp;</span>
+				Previous
+			</a>
+		</li>
+	{% else %}
+		<li class='disabled' style='float: left'>
+			<a href='javascript:void(0)'>
+				<span aria-hidden='true'>&larr;&nbsp;</span>
+				Previous
+			</a>
+		</li>
+	{% endif %}
+	
+	<span style='line-height: 34px'>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+	
+	{% if paginator.next_page %}
+		<li style='float: right'>
+			<a href='{{ paginator.next_page_path }}'>
+				Next&nbsp;
+				<span aria-hidden='true'>&rarr;</span>
+			</a>
+		</li>
+	{% else %}
+		<li class='disabled' style='float: right'>
+			<a href='javascript:void(0)'>
+				Next&nbsp;
+				<span aria-hidden='true'>&rarr;</span>
+			</a>
+		</li>
+	{% endif %}
 </ul>
