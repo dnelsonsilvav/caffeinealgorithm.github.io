@@ -10,7 +10,7 @@ These 25 Arduino projects represent the first content of our new page "Projects"
 
 [Arduino](https://www.arduino.cc/){:target='_blank'} is a software company, project, and user community that designs and manufactures computer open-source hardware, open-source software, and microcontroller-based kits for building digital devices and interactive objects that can sense and control physical devices.
 
-#### Projects
+#### Projects:
 
 1. Example;
 2. 1 Digital 8 Segment LED;
