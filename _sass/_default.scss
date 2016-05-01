@@ -158,10 +158,6 @@ span + .entry-title {
 	@include media($large) {
 		@include span-columns(9.5);
 	}
-
-	a, a:hover {
-		color: $color;
-	}
 }
 
 .pagination {
@@ -258,6 +254,12 @@ span + .entry-title {
 	}
 }
 
-a:hover {
+a, a:hover {
+	color: $color;
 	text-decoration: none;
+}
+
+ul {
+	margin-top: -5px;
+	margin-bottom: 25px;
 }
