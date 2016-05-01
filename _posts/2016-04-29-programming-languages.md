@@ -12,14 +12,14 @@ A programming language is defined as a standardized method to communicate instru
 
 The same can be converted or translated into machine code through build or interpreted methods by a process called interpretation (in both occurs the translation of the source code to machine code).
 
-### The structure type
+#### The structure type:
 
 * Weakly typed: the type of variable that dynamically changes according to the situation;
 * Strongly typed: the variable type (once assigned) that remains the same until it is discarded from memory;
 * Dynamically typed: the variable type that is defined at runtime;
 * Statically typed: the variable type that is defined at compile time;
 
-### The degree of abstraction
+#### The degree of abstraction:
 
 * Low level: symbols that are a direct representation of machine code that will be generated (Assembly, etc);
 * Medium level: symbols that can be directly translated into machine code, but also complex symbols which are converted by a compiler (C, C++, etc.);
