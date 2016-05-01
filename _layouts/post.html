@@ -52,8 +52,10 @@
 								{{ page.date | date: '%B %d, %Y' }}
 							</time>
 						</span>
-
-						{% include ad-sidebar.html %}
+						
+						{% if site.development == false %}
+							{% include ad-sidebar.html %}
+						{% endif %}
 					</footer>
 
 					<div class='entry-content' style='text-align: justify; margin-bottom: -28px'>
