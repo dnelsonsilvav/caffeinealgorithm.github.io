@@ -61,22 +61,22 @@
 							</span>
 						{% endif %}
 
-						<!-- {% include ad-sidebar.html %} -->
+						{% include ad-sidebar.html %}
 					</footer>
 
-					<div class='entry-content' style='text-align: justify'>
+					<div class='entry-content' style='text-align: justify; margin-bottom: -28px'>
 						{{ content }}
 					</div>
 				</div>
 
-				<nav class='pagination' role='navigation'>
-					{% if page.previous %}
-						<a class='btn' href='{{ site.url }}{{ page.previous.url }}' title='{{ page.previous.title }}'>Previous</a>
-					{% endif %}
-					{% if page.next %}
-						<a class='btn' href='{{ site.url }}{{ page.next.url }}' title='{{ page.next.title }}'>Next</a>
-					{% endif %}
-				</nav>
+				<ul class='pager' style='margin-bottom: 30px'>
+					<li style='text-align: center'>
+						<a href='{{ site.url }}'>
+							<span aria-hidden='true'>&larr;&nbsp;</span>
+							Back
+						</a>
+					</li>
+				</ul>
 			</article>
 		</div>
 
