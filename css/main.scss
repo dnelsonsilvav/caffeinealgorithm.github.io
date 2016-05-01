@@ -4,15 +4,16 @@ sitemap: false
 
 @import 'variables';
 
+@import 'bootstrap';
 @import 'bourbon/bourbon';
-@import 'grid-settings';
-@import 'neat/neat';
 @import 'font-awesome/font-awesome';
 @import 'magnific-popup/magnific-popup';
+@import 'neat/neat';
 
 @import 'mixins';
 @import 'reset';
 @import 'base';
+@import 'grid-settings';
 
 @import 'helpers';
 @import 'buttons';
