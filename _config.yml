@@ -4,6 +4,10 @@ url: http://caffeinealgorithm.com
 permalink: '/:title'
 logo: logo.png
 
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: '/page/:num'
+
 sass:
   sass_dir: _sass
   style: compressed
