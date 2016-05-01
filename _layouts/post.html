@@ -53,14 +53,6 @@
 							</time>
 						</span>
 
-						{% if page.modified %}
-							<span class='entry-date date modified'>
-								<time datetime='{{ page.modified }}'>
-									<i class='fa fa-pencil'></i> {{ page.modified | date: '%B %d, %Y' }}
-								</time>
-							</span>
-						{% endif %}
-
 						{% include ad-sidebar.html %}
 					</footer>
 
