@@ -4,9 +4,9 @@ title: 'Object-oriented programming'
 date: 2016-05-02
 ---
 
-Today's topic is about a new paradigm called object-oriented programming.
+Today's topic is about a paradigm called object-oriented programming.
 
-### What is the object-oriented programming?
+### What is object-oriented programming?
 
 The object-oriented programming is a paradigm widely used today and is based on the composition between different software units called objects and it implements a set of classes that define the objects in the software system.
 
