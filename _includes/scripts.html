@@ -1,10 +1,10 @@
-<script type='text/javascript'>
+<script data-cfasync='false' type='text/javascript'>
 	var BASE_URL = '{{ site.url }}';
 </script>
 
-<script src='{{ site.url }}/js/jquery-2.2.3.min.js'></script>
-<script src='{{ site.url }}/js/bootstrap.min.js'></script>
-<script src='{{ site.url }}/js/control.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/jquery-2.2.3.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/bootstrap.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/control.min.js'></script>
 
 {% if site.development == false %}
 	{% if site.organization.google.analytics %}
@@ -30,7 +30,7 @@
 				}, 'google_translate_element');
 			};
 		</script>
-		<script data-cfasync='false' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'></script>
+		<script data-cfasync='false' type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
 	{% endif %}
 
 	{% if site.organization.statcounter.project and site.organization.statcounter.security %}
