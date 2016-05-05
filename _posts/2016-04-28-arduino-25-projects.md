@@ -38,6 +38,6 @@ These 25 Arduino projects represent the first content of our new page "Projects"
 24. Temperature Measurement;
 25. Tilt Switch;
 
-You can find all these projects by clicking [here](http://caffeinealgorithm.com/projects){:target='_blank'}.
+You can find all these projects by clicking [here]({{ site.url }}/projects){:target='_blank'}.
 
 ### *Let's drink another coffee and wait for the next moment!*
