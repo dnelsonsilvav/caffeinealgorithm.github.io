@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Projects'
+title: Projects
 ---
 
 #### Website
@@ -28,3 +28,16 @@ $ pip install ca-morse-code-translator
 $ pip install ca-password-generator  
 [ca-sqlite-manager](https://pypi.python.org/pypi/ca-sqlite-manager/1.0){:target='_blank'}  
 $ pip install ca-sqlite-manager
+
+#### JavaScript Projects
+
+**GitHub**  
+[javascript-projects](https://github.com/caffeinealgorithm/javascript-projects){:target='_blank'}  
+Caesar Cipher, Game Engine, Snake Game, ...
+
+**Try it now**  
+[Caesar Cipher]({{ site.url }}/projects/caesar-cipher){:target='_blank'}  
+[Game Engine]({{ site.url }}/projects/game-engine){:target='_blank'}  
+[Snake Game]({{ site.url }}/projects/snake-game){:target='_blank'}  
+[Todo]({{ site.url }}/projects/todo){:target='_blank'}  
+[Weather Map]({{ site.url }}/projects/weather-map){:target='_blank'}
