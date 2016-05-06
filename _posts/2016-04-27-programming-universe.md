@@ -4,11 +4,11 @@ title: 'Programming universe'
 date: 2016-04-27
 ---
 
-Today is the day to write about the programming universe to realize what it is and perhaps understand why we love to develop.
+Today is the day to write about the programming universe to realize what it's and perhaps understand why I love to develop.
 
 ### What is programming?
 
-Programming is the process of writing, testing and maintenance of a particular computer program. This same program is written in a programming language, although it is possible (with some difficulty) to write it directly in machine language.
+Programming is the process of writing, testing and maintenance of a particular computer program. This same program is written in a programming language, although it's possible (with some difficulty) to write it directly in machine language.
 
 ### What is an algorithm?
 
