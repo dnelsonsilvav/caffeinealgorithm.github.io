@@ -1,6 +1,6 @@
 var cities, information, map, request, data, feature;
 
-$.ajax({ url: 'portugal-cities-beautify.json', success: function (content) { cities = JSON.parse(content); } });
+$.ajax({ url: 'portugal-cities-beautify.json', success: function (content) { cities = content; } });
 
 function initializeMap() {
 	information = new google.maps.InfoWindow();
