@@ -4,7 +4,7 @@ title: 'Programming languages'
 date: 2016-04-29
 ---
 
-The weekend is about to begin and the topic of the day is related to our programming universe.
+The weekend is about to begin and the topic of the day is related to the programming universe.
 
 ### What is a programming language?
 
