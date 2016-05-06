@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 'Contact'
+title: Contact
 ---
 
-If you've any questions or want to simply contact us, you can do so by sending an email to [caffeinealgorithm@gmail.com](mailto:caffeinealgorithm@gmail.com){:target='_blank'}.
+If you've any questions or want to simply contact this organization, you can do so by sending an email to [caffeinealgorithm@gmail.com](mailto:caffeinealgorithm@gmail.com){:target='_blank'}.
 
-Do not hesitate to contact us whenever you need and at any time.
+Do not hesitate to send an email whenever you need and at any time.
 
 #### Additional Links
 
