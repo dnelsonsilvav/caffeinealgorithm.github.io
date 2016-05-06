@@ -4,7 +4,7 @@ title: 'Logic programming'
 date: 2016-05-04
 ---
 
-The topic of the day is related to the last of the four most popular paradigms in our programming universe.
+The topic of the day is related to the last of the four most popular paradigms in the programming universe.
 
 ### What is logic programming?
 
