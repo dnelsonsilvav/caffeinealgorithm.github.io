@@ -4,7 +4,7 @@ title: 'JavaScript (5 projects)'
 date: 2016-05-05
 ---
 
-Today was a day full of work and we've 5 JavaScripts projects for you.
+Today was a day full of work and I've 5 JavaScripts projects for you.
 
 ### What is JavaScript?
 
