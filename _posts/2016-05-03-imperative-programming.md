@@ -4,7 +4,7 @@ title: 'Imperative programming'
 date: 2016-05-03
 ---
 
-We're here today to write about imperative programming indicating its advantages and disadvantages.
+I'm here today to write about imperative programming indicating its advantages and disadvantages.
 
 ### What is imperative programming?
 
@@ -29,6 +29,6 @@ A program based on this paradigm consists of sequence structures (where a task i
 
 Ada, Algol, Basic, C, PHP, Java, Cobol, Fortran, Pascal, Python, ...
 
-The topic of tomorrow will be about the paradigm called logic programming and we hope you've enjoyed this moment of reading.
+The topic of tomorrow will be about the paradigm called logic programming and I hope that you've enjoyed this moment of reading.
 
 ### *Let's drink another coffee and wait for the next moment!*
