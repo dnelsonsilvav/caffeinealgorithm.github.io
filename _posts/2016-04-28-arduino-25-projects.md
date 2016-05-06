@@ -4,7 +4,7 @@ title: 'Arduino (25 projects)'
 date: 2016-04-28T00:00:00
 ---
 
-These 25 Arduino projects represent the first content of our new page "Projects".
+These 25 Arduino projects represent the first content of this website new page "Projects".
 
 ### What is Arduino?
 
