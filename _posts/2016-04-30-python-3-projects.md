@@ -4,7 +4,7 @@ title: 'Python (3 projects)'
 date: 2016-04-30
 ---
 
-The weekend has already started and today we've 3 Python projects for you.
+The weekend has already started and today I've 3 Python projects for you.
 
 ### What is Python?
 
