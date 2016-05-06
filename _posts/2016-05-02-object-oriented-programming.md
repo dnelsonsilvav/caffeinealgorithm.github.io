@@ -29,6 +29,6 @@ Each class determines the behavior (defined in the methods) and possible states 
 
 C++, C#, VB.NET, Java, Objective-C, Python, Ruby, ...
 
-We hope that your week has started in the best way.
+I hope that your week has started in the best way.
 
 ### *Let's drink another coffee and wait for the next moment!*
