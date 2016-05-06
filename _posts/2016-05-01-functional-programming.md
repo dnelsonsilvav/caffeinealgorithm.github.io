@@ -4,7 +4,7 @@ title: 'Functional programming'
 date: 2016-05-01
 ---
 
-This is the first post of the month and today we're here to write about functional programming.
+This is the first post of the month and today I'm here to write about functional programming.
 
 ### What is functional programming?
 
@@ -26,6 +26,6 @@ Functional programming is a programming paradigm closely linked to mathematics a
 
 Alice, Arc, Cat, Dylan, Haskell, Joy, Miranda, ML, Opa, R, Roy, Scala, Wolfram, ...
 
-We hope you've enjoyed this moment of reading.
+I hope that you've enjoyed this moment of reading.
 
 ### *Let's drink another coffee and wait for the next moment!*
