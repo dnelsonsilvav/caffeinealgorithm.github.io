@@ -12,6 +12,11 @@
 				<i class='fa fa-twitter-square fa-2x'></i>
 			</a>
 		{% endif %}
+		{% if site.organization.instagram %}
+			<a href='https://www.instagram.com/{{ site.organization.instagram }}' title='{{ site.organization.name }} on Instagram' target='_blank'>
+				<i class='fa fa-instagram fa-2x'></i>
+			</a>
+		{% endif %}
 		{% if site.organization.google.plus %}
 			<a href='https://plus.google.com/+{{ site.organization.google.plus }}' title='{{ site.organization.name }} on Google+' target='_blank'>
 				<i class='fa fa-google-plus-square fa-2x'></i>
