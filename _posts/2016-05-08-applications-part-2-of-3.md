@@ -14,7 +14,7 @@ In this second part I'll write about the navigation, communication, cloud and st
 ### Communication applications
 
 #### [Skype](https://www.skype.com/en/){:target='_blank'}
-* The best application of communication already established in my opinion that I use to socialize and work. I'm one of those people who loves the Skype graphic inteface and that dazzles with its proper functioning in relation to voice/video calls. I really like to be able to make screen sharing and to preview images and/or videos.
+* The best communication application already established in my opinion that I use to socialize and work. I'm one of those people who loves the Skype graphic inteface and that dazzles with its proper functioning in relation to voice/video calls. I really like to be able to make screen sharing and to preview images and/or videos.
 
 ### Cloud applications
 
