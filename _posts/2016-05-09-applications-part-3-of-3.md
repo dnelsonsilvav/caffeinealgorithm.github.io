@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Applications (Part 3 of 3)'
-date: 2016-05-08
+date: 2016-05-09
 ---
 
 Finally we come to the third and final part related to the subject "Applications" and today I'll write about the rest of the applications that I use.
