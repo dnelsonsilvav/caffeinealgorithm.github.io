@@ -7,6 +7,11 @@
 
 	<span>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.organization.name }} - All rights reserved.</span>
 	<div class='social-icons'>
+		{% if site.organization.facebook %}
+			<a href='https://facebook.com/{{ site.organization.facebook }}' title='{{ site.organization.name }} on Facebook' target='_blank'>
+				<i class='fa fa-facebook-square fa-2x'></i>
+			</a>
+		{% endif %}
 		{% if site.organization.twitter %}
 			<a href='https://twitter.com/{{ site.organization.twitter }}' title='{{ site.organization.name }} on Twitter' target='_blank'>
 				<i class='fa fa-twitter-square fa-2x'></i>
