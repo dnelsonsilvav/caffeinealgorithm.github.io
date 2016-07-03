@@ -9,6 +9,7 @@ Do not hesitate to send an email whenever you need and at any time.
 
 #### Additional Links
 
+* [Facebook (@caffeinealgorithm)](https://facebook.com/caffeinealgorithm){:target='_blank'};
 * [Twitter (@caffealgorithm)](https://twitter.com/caffealgorithm){:target='_blank'};
 * [Google+ (+CaffeineAlgorithm)](https://plus.google.com/+CaffeineAlgorithm){:target='_blank'};
 * [YouTube (CaffeineAlgorithm)](https://www.youtube.com/c/CaffeineAlgorithm){:target='_blank'};
