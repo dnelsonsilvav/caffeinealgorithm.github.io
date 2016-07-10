@@ -38,6 +38,20 @@ title: Videos
 		<div class="description">Programar em Python #02 - Função print() e Strings</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='Gj_IiwOOVSs' class='video'>
+		</div>
+		<div class="description">Programar em Python #03 - Operadores Aritméticos</div>
+	</div>
+</div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='LIBRw9IO1sk' class='video'>
+		</div>
+		<div class="description">Programar em Python #04 - Variáveis</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
