@@ -52,6 +52,13 @@ title: Videos
 		<div class="description">Programar em Python #04 - Variáveis</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='ASC94zP4oY4' class='video'>
+		</div>
+		<div class="description">Programar em Python #05 - Operadores de Atribuição</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
