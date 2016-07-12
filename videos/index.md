@@ -59,6 +59,13 @@ title: Videos
 		<div class="description">Programar em Python #05 - Operadores de Atribuição</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='2a2XVYyRjhY' class='video'>
+		</div>
+		<div class="description">Programar em Python #06 - Mais sobre as Strings</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
