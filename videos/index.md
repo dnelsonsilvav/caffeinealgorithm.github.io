@@ -66,6 +66,13 @@ title: Videos
 		<div class="description">Programar em Python #06 - Mais sobre as Strings</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='KBGHi3IV7t8' class='video'>
+		</div>
+		<div class="description">Programar em Python #07 - Comentários</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
