@@ -73,6 +73,13 @@ title: Videos
 		<div class="description">Programar em Python #07 - Comentários</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='dmuc2yimrig' class='video'>
+		</div>
+		<div class="description">Programar em Python #08 - Função input()</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
