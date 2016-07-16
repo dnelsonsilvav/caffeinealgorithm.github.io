@@ -87,6 +87,13 @@ title: Videos
 		<div class="description">Programar em Python #09 - Listas</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='_0RLNVFJ0nw' class='video'>
+		</div>
+		<div class="description">Programar em Python #10 - if, elif e else</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
