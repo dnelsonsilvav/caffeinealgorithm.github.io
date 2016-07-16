@@ -80,6 +80,13 @@ title: Videos
 		<div class="description">Programar em Python #08 - Função input()</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='2G-BrOX4t_w' class='video'>
+		</div>
+		<div class="description">Programar em Python #09 - Listas</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
