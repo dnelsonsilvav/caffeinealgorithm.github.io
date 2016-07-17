@@ -94,6 +94,13 @@ title: Videos
 		<div class="description">Programar em Python #10 - if, elif e else</div>
 	</div>
 </div>
+<div class="videoContainer">
+	<div class="img">
+		<div id='WeFaMzHDKbg' class='video'>
+		</div>
+		<div class="description">Programar em Python #11 - Operadores de Comparação</div>
+	</div>
+</div>
 
 <script>
 	var tag = document.createElement('script');
