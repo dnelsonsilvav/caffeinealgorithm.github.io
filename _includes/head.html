@@ -4,6 +4,9 @@
 	<meta http-equiv='cleartype' content='on'/>
 
 	{% assign author = site.author %}
+	{% if site.organization.pinterest.verify %}
+		<meta name='p:domain_verify' content='{{ site.organization.pinterest.verify }}'/>
+	{% endif %}
 	{% if site.organization.google.verify %}
 		<meta name='google-site-verification' content='{{ site.organization.google.verify }}'/>
 	{% endif %}
