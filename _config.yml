@@ -41,6 +41,8 @@ organization:
   statcounter:
     project: 10935538
     security: cce7c3f8
+  pinterest:
+    verify: b3d1536809a85b4513e1979cba27ea8b
 
 author:
   name: Nelson Silva
