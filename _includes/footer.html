@@ -5,7 +5,12 @@
 		{% endif %}
 	{% endif %}
 
-	<span>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.organization.name }} - All rights reserved.</span>
+	<span><b>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.organization.name }} - All rights reserved.</b></span><br>
+	<span style='font-style: italic'>
+		Made with <i class='fa fa-heart' aria-hidden='true' style='color:#dd3d36'></i> using <a href='http://getbootstrap.com/'>Bootstrap</a> and <a href='https://jekyllrb.com/'>Jekyll</a>.<br>
+		Typeface by <a href='http://fontawesome.io/'>Font Awesome</a>.
+	</span>
+
 	<div class='social-icons'>
 		{% if site.organization.facebook %}
 			<a href='https://facebook.com/{{ site.organization.facebook }}' title='{{ site.organization.name }} on Facebook' target='_blank'>
