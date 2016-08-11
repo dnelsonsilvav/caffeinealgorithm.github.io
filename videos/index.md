@@ -17,13 +17,14 @@ title: Videos
 	</div>
 </div>
 
-<ul class="nav nav-pills nav-justified">
-	<li class="active"><a data-toggle="tab" href="#principal">Principal</a></li>
-	<li><a data-toggle="tab" href="#programar-em-python">Programar em Python</a></li>
+<ul class='nav nav-pills nav-justified'>
+	<li class='active'><a data-toggle='tab' href='#principal'>Principal</a></li>
+	<li><a data-toggle='tab' href='#programar-em-python'>Programar em Python</a></li>
+	<li><a data-toggle='tab' href='#programar-em-csharp'>Programar em C#</a></li>
 </ul>
 
-<div class="tab-content">
-	<div id="principal" class="tab-pane fade in active">
+<div class='tab-content'>
+	<div id='principal' class='tab-pane fade in active'>
 		<h3></h3>
 		<div class='videoContainer'>
 			<div class='img'>
@@ -32,7 +33,7 @@ title: Videos
 			</div>
 		</div>
 	</div>
-	<div id="programar-em-python" class="tab-pane fade">
+	<div id='programar-em-python' class='tab-pane fade'>
 		<h3></h3>
 		<div class='videoContainer'>
 			<div class='img'>
@@ -241,6 +242,69 @@ title: Videos
 		<div class='videoContainer'>
 			<div class='img'>
 				<div id='JVdBjzdnQLw' class='video'>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='programar-em-csharp' class='tab-pane fade'>
+		<h3></h3>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='mQ2lcaG2Jaw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='uKdz0qNb4kw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='06G8mogPN7U' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='dRuzCyvlF1Q' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='sjQnGOEdZ1w' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='QPV9hUPTrnY' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='j_tWBdaSha4' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ByVFlZORE6w' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='dUfCXOp3UFM' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='NAfF1StjFy4' class='video'>
 				</div>
 			</div>
 		</div>
