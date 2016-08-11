@@ -118,7 +118,7 @@ function snake() {
 }
 
 // Verify if the snake eat herself
-function eaten(insd) { return (insd[0] == currentPoint['x'] && insd[1] == currentPoint['y']); }
+function eaten(devwop) { return (devwop[0] == currentPoint['x'] && devwop[1] == currentPoint['y']); }
 
 // Draw food
 function food() {
@@ -141,7 +141,14 @@ function food() {
 }
 
 // Verify and compare snake and food position
-function pointer(insd) { return (insd[0] == point['x'] && insd[1] == point['y']); }
+function pointer(devwop) { return (devwop[0] == point['x'] && devwop[1] == point['y']); }
+
+// http://stackoverflow.com/questions/8916620/disable-arrow-key-scrolling-in-users-browser
+window.addEventListener('keydown', function(e) {
+	if([37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+		e.preventDefault();
+	}
+}, false);
 
 // Keydown event
 document.onkeydown = function(event) {
