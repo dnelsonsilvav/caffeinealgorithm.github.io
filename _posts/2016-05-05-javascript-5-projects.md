@@ -20,6 +20,6 @@ This programming language is also used in environments that are not Web-based su
 4. Todo;
 5. Weather Map;
 
-You can find all these projects by clicking [here]({{ site.url }}/projects){:target='_blank'}.
+You can find all these projects by clicking [here]({{ site.baseurl }}/projects){:target='_blank'}.
 
 ### *Let's drink another coffee and wait for the next moment!*
