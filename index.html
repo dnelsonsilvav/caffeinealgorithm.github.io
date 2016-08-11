@@ -3,24 +3,20 @@ layout: default
 title: Blog
 ---
 
-<ul class='post-list'>
+<div class='posts'>
 	{% for post in paginator.posts %}
-		<li>
-			<article>
-				<a href='{{ site.url }}{{ post.url }}' style='color: #0095da'>{{ post.title }}</a>
-				<a>
-					<span class='entry-date'>
-						<time datetime='{{ post.date | date_to_xmlschema }}'>{{ post.date | date: '%B %d, %Y' }}</time>
-					</span>
-				</a>
-				<p style='font-size: 15px'>
-					{{ post.content | strip_html | truncatewords: 35}}
-					<a href='{{ post.url }}' style='color: #0095da'> [Read more...]</a>
-				</p>
-			</article>
-		</li>
+		<div class='post'>
+			<h1 class='post-title' style='font-size: 1rem; font-weight: 600'>
+				<a href='{{ post.url }}'>{{ post.title }}</a>
+			</h1>
+
+			<span class='post-date'>{{ post.date | date: '%B %d, %Y' }}</span>
+
+			{{ post.content | strip_html | truncatewords: 35}}
+			<a href='{{ post.url }}' style='color: #008bd0'> [Read more...]</a>
+		</div>
 	{% endfor %}
-</ul>
+</div>
 
 <ul class='pager'>
 	{% if paginator.previous_page %}
