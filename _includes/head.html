@@ -1,7 +1,8 @@
 <head>
 	<meta charset='utf-8'/>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 	<meta http-equiv='cleartype' content='on'/>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
 
 	{% assign author = site.author %}
 	{% if site.organization.pinterest.verify %}
@@ -15,10 +16,12 @@
 		{{ site.title }}
 	</title>
 
-	<link rel='stylesheet' href='{{ site.url }}/css/style.css'>
-	<link rel='shortcut icon' href='{{ site.url }}/favicon.ico'>
-	
-	<script data-cfasync='false' type='text/javascript' src='https://use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js'></script>
-	<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/modernizr-custom.min.js'></script>
-	<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/jquery-2.2.3.min.js'></script>
+	<link rel='stylesheet' href='{{ site.baseurl }}/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='{{ site.baseurl }}/css/style.css'>
+	<link rel='stylesheet' href='{{ site.baseurl }}/css/syntax.css'>
+	<link rel='stylesheet' href='{{ site.baseurl }}/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'>
+	<link rel='shortcut icon' href='{{ site.baseurl }}/favicon.ico'>
+
+	<script data-cfasync='false' type='text/javascript' src='{{ site.baseurl }}/js/jquery-3.1.0.min.js'></script>
 </head>
