@@ -18,6 +18,6 @@ Don't forget that Python supports multiple programming paradigms, including obje
 2. Password Generator;
 3. SQLite Manager;
 
-You can find all these projects by clicking [here]({{ site.url }}/projects){:target='_blank'}.
+You can find all these projects by clicking [here]({{ site.baseurl }}/projects){:target='_blank'}.
 
 ### *Let's drink another coffee and wait for the next moment!*
