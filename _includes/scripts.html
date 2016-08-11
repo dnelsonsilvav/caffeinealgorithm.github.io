@@ -1,9 +1,8 @@
 <script data-cfasync='false' type='text/javascript'>
-	var BASE_URL = '{{ site.url }}';
+	var BASE_URL = '{{ site.baseurl }}';
 </script>
 
-<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/bootstrap.min.js'></script>
-<script data-cfasync='false' type='text/javascript' src='{{ site.url }}/js/control.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='{{ site.baseurl }}/js/bootstrap.min.js'></script>
 
 {% if site.development == false %}
 	{% if site.organization.google.analytics %}
