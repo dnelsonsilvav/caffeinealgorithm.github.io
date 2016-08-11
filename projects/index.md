@@ -36,8 +36,8 @@ $ pip install ca-sqlite-manager
 Caesar Cipher, Game Engine, Snake Game, ...
 
 **Try it now**  
-[Caesar Cipher]({{ site.url }}/projects/caesar-cipher){:target='_blank'}  
-[Game Engine]({{ site.url }}/projects/game-engine){:target='_blank'}  
-[Snake Game]({{ site.url }}/projects/snake-game){:target='_blank'}  
-[Todo]({{ site.url }}/projects/todo){:target='_blank'}  
-[Weather Map]({{ site.url }}/projects/weather-map){:target='_blank'}
+[Caesar Cipher]({{ site.baseurl }}/projects/caesar-cipher)  
+[Game Engine]({{ site.baseurl }}/projects/game-engine)  
+[Snake Game]({{ site.baseurl }}/projects/snake-game)  
+[Todo]({{ site.baseurl }}/projects/todo)  
+[Weather Map]({{ site.baseurl }}/projects/weather-map)
