@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/devwop
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://caffeinealgorithm.com
+  * I am devwop (https://keybase.io/devwop) on keybase.
+  * I have a public key with fingerprint 9941 F5AB 60CA C2D3 BBDF  97FB 3366 301C 5150 3AB4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016603d22e90907302cd2cec9925a14ca77324a2330977555625c3d19694535e740a",
+            "fingerprint": "9941f5ab60cac2d3bbdf97fb3366301c51503ab4",
+            "host": "keybase.io",
+            "key_id": "3366301c51503ab4",
+            "kid": "01016603d22e90907302cd2cec9925a14ca77324a2330977555625c3d19694535e740a",
+            "uid": "d21e909df0b520a386bf9a8438417319",
+            "username": "devwop"
+        },
+        "service": {
+            "hostname": "caffeinealgorithm.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472395203,
+    "expire_in": 157680000,
+    "prev": "b0dfe36065a27a3f1925b40e093d0143fa1f2a43a6a5cb6565c598236ff86ad7",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIyAnicrZJbSBVBGMePllYHoiAsulCxQcTRbHZmZ3b3IIVFQfUQQRci8zQ7O3vc
+0rPH3VU7hRVU0oWyhwopsRvZ7QSldJXEygor6ErRU1gUZReyC3aDmhXpqcfmZZhv
+/v/f/L+PaR/cLxTO6Lg/tqN73Kj8jNtXGipCi6/2XFsjGY6ZkqJrpJW8d+OlJvf8
+2ErblKISkIFMCEAmhFwHOlARgMyEjDNdh5jKCqOqiqBCIUJAV1WMMYGYIVPWia5g
+hLmqACrlSZadiHM36doJX2B1XZEtTA0CGGXQRIZhWrpqGQgRgoDMsIwBooYijCWO
+FzhEOIN6PN92RE0cYr3x/qH/z7krenEmlAOMaQEDQ0CRRgxLp5qCNEVWkawHQo+7
+CVrGAzWvrHKSUnWeJGqVNuPBWIM++u4ZtSxuJzgtjTuu7ZeU5TOnTCCSruM7zCkV
+khLfT3rRAOGnkoGnihuxPlrMsBOmGKdwVHLXs52EFJWFkvl2gJcVFSJdxER5El+V
+tF0eswMFVokGxAre4ZUCaQDT4ogAgilUKbJkMRlDARzoyASygiwqW5AqiBKKmUEw
+wQzrGkTEsjRCTVUK+itPOFJUEzFpXCA9O56gfoXLpeqrbUX9QxnhUHZWZvDNQuFB
+Q/9+vnkDfi8ve34kXXvqfube46mPz1JfC57uO8Ae7e/JKVo0o3PHhs+jajq9pZFL
+Q8ZlTidbWksip9IdOXLNodXnn41Y0D15jJF1MKa3cDh8e316wJ1fmrU89+ySnJNv
+fnbdOmxUHXvR3KmOvnG2sGiTV5B9/cyn9xenOdL18aVP380cOafpXsTOvTb7W+OF
+LyeKU3taPpR3t32f9aD5wNb61vDdSXcmTSifyHPjOwYe21kw61X9ipy3P+p216a1
+SNa54rXs6Lab4SE/Xq7b96HrwmO6ou7y+/VtuxfMSB3euLmmpXmXX7sxkn74OqIM
+K29yp94c3v8dnd/Vnvnk9el2p7CndeFc2NhwYsqhZX8AKrBHKg==
+=6OAr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/devwop
+
+==================================================================
