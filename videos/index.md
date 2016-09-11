@@ -32,6 +32,12 @@ title: Videos
 				</div>
 			</div>
 		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ip8PKE69VMM' class='video'>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id='programar-em-python' class='tab-pane fade'>
 		<h3></h3>
@@ -305,6 +311,336 @@ title: Videos
 		<div class='videoContainer'>
 			<div class='img'>
 				<div id='NAfF1StjFy4' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='RMcMvg2P-YA' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='OTicALDn9xE' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='6EBHpNaX-G0' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='7P4Ce8Rskcg' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='-A-jags3Ax0' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='irGJP9rbGlQ' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='25qVICWd6lU' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='2ey6SVmrx1c' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='8ptKslafX1k' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='e9JY3-jNcsY' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='m0UwhcltZBI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='z90J-km_i2w' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='Y7Ro_4qcsD8' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='UAErdNXiBFg' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='u487Bm6--Sc' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ravjZyqXtrs' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='U2FCjmwnfbw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='oxeZJFDvqNI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='7G3cyfFWDgs' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='5WjwoG-YaAY' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='xvAtloI2FFI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='b7A6BCcEgjY' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='JO9O_ZW-zmk' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='cS5Ud5ifOBA' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='0f9nEMy5zGs' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='jQlMwA1XVn4' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='QQJJl9uf6p4' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='fBqprmcVvK8' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='q1HSk0ih_eE' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='LNmUFSVqvlw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='TSfJraGyjsA' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='TnG1MD2TJDU' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='223Gxvle8Q0' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='kboV9ssIM_8' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='-D3YrAbDNjs' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='o1cbjwFZ7UI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='9S8GIsWRj28' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='wcBVfHfsWN0' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='0TR56H8tN1g' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='6pjrwEXC__0' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='U1pRCwB6xYE' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ZFsXvEw3VsI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='c_KbJQfC9Xw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='-CzETBc1wRg' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='HCfF8JgUtRI' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='xYTFpEbySrA' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='aw5zB_iOxFY' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='w-jmJx0Mq4c' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='NE65yPlb4ds' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ACgbQt3m9bU' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='nfrFO6pBhuw' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='tqCtnq6nc7w' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='ufACCPp61Ns' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='QqLQdGu6E00' class='video'>
+				</div>
+			</div>
+		</div>
+		<div class='videoContainer'>
+			<div class='img'>
+				<div id='fwJvvPEVnYc' class='video'>
 				</div>
 			</div>
 		</div>
