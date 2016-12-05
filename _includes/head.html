@@ -1,27 +1,38 @@
 <head>
-	<meta charset='utf-8'/>
-	<meta http-equiv='cleartype' content='on'/>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	{% assign author = site.author %}
-	{% if site.organization.pinterest.verify %}
-		<meta name='p:domain_verify' content='{{ site.organization.pinterest.verify }}'/>
-	{% endif %}
-	{% if site.organization.google.verify %}
-		<meta name='google-site-verification' content='{{ site.organization.google.verify }}'/>
-	{% endif %}
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	<meta name="organization" content="{{ site.organization.name }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="author" content="{{ site.author.name }}">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<title>
-		{{ site.title }}
-	</title>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{{ site.title }}">
+	<meta name="twitter:description" content="{{ site.description }}">
 
-	<link rel='stylesheet' href='{{ site.baseurl }}/css/bootstrap.min.css'>
-	<link rel='stylesheet' href='{{ site.baseurl }}/css/style.css'>
-	<link rel='stylesheet' href='{{ site.baseurl }}/css/syntax.css'>
-	<link rel='stylesheet' href='{{ site.baseurl }}/css/font-awesome.min.css'>
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'>
-	<link rel='shortcut icon' href='{{ site.baseurl }}/favicon.ico'>
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{ site.title }}">
+	<meta property="og:description" content="{{ site.description }}">
 
-	<script data-cfasync='false' type='text/javascript' src='{{ site.baseurl }}/js/jquery-3.1.0.min.js'></script>
+	<meta name="msapplication-TileImage" content="{{ "assets/img/favicons/mstile-150x150.png" | prepend: site.baseurl }}">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "assets/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{ "assets/img/favicons/android-chrome-192x192.png" | prepend: site.baseurl }}">
+	<link rel="icon" type="image/png" sizes="512x512" href="{{ "assets/img/favicons/android-chrome-512x512.png" | prepend: site.baseurl }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "assets/img/favicons/favicon-16x16.png" | prepend: site.baseurl }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "assets/img/favicons/favicon-32x32.png" | prepend: site.baseurl }}">
+	<link rel="shortcut icon" href="{{ "assets/img/favicons/favicon.ico" | prepend: site.baseurl }}">
+	<link rel="manifest" href="{{ "assets/img/favicons/manifest.json" | prepend: site.baseurl }}">
+
+	<link rel="stylesheet" href="{{ "assets/css/styles.css" | prepend: site.baseurl }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
