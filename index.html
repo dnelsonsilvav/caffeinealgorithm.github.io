@@ -1,55 +1,44 @@
 ---
 layout: default
-title: Blog
 ---
 
-<div class='posts'>
-	{% for post in paginator.posts %}
-		<div class='post'>
-			<h1 class='post-title' style='font-size: 1rem; font-weight: 600'>
-				<a href='{{ post.url }}'>{{ post.title }}</a>
-			</h1>
+<div class="main-post-list">
+	<ol class="post-list">
+		{% for post in paginator.posts %}
+			{% assign month = post.date | date: "%-m" %}
+			{% capture months %}
+				{% case month %}
+					{% when '1' %}Janeiro
+					{% when '2' %}Fevereiro
+					{% when '3' %}Março
+					{% when '4' %}Abril
+					{% when '5' %}Maio
+					{% when '6' %}Junho
+					{% when '7' %}Julho
+					{% when '8' %}Agosto
+					{% when '9' %}Setembro
+					{% when '10' %}Outubro
+					{% when '11' %}Novembro
+					{% when '12' %}Dezembro
+				{% endcase %}
+			{% endcapture %}
 
-			<span class='post-date'>{{ post.date | date: '%B %d, %Y' }}</span>
+			<li>
+				<h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+				<p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}&hellip;</p>
 
-			{{ post.content | strip_html | truncatewords: 35}}
-			<a href='{{ post.url }}' style='color: #008bd0'> [Read more...]</a>
-		</div>
-	{% endfor %}
+				<div class="post-list__meta">
+					<time datetime="{{ post.date | date: "%-d" }} {{ months }} | {{ post.date | date: "%Y" }}" class="post-list__meta--date date">{{ post.date | date: "%-d" }} {{ months }} | {{ post.date | date: "%Y" }}</time> &#8226; <span class="post-meta__tags">em {% for tag in post.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+				</div>
+
+				<hr class="post-list__divider">
+			</li>
+		{% endfor %}
+	</ol>
+
+	<hr class="post-list__divider ">
+
+	{% if paginator.previous_page or paginator.next_page %}
+		{% include pagination.html %}
+	{% endif %}
 </div>
-
-<ul class='pager'>
-	{% if paginator.previous_page %}
-		<li style='float: left'>
-			<a href='{{ paginator.previous_page_path }}'>
-				<span aria-hidden='true'>&larr;&nbsp;</span>
-				Previous
-			</a>
-		</li>
-	{% else %}
-		<li class='disabled' style='float: left'>
-			<a href='javascript:void(0)'>
-				<span aria-hidden='true'>&larr;&nbsp;</span>
-				Previous
-			</a>
-		</li>
-	{% endif %}
-	
-	<span style='line-height: 34px'>Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	
-	{% if paginator.next_page %}
-		<li style='float: right'>
-			<a href='{{ paginator.next_page_path }}'>
-				Next&nbsp;
-				<span aria-hidden='true'>&rarr;</span>
-			</a>
-		</li>
-	{% else %}
-		<li class='disabled' style='float: right'>
-			<a href='javascript:void(0)'>
-				Next&nbsp;
-				<span aria-hidden='true'>&rarr;</span>
-			</a>
-		</li>
-	{% endif %}
-</ul>
