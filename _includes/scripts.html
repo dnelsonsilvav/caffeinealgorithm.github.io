@@ -1,8 +1,6 @@
-<script data-cfasync='false' type='text/javascript'>
-	var BASE_URL = '{{ site.baseurl }}';
-</script>
-
-<script data-cfasync='false' type='text/javascript' src='{{ site.baseurl }}/js/bootstrap.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script data-cfasync='false' type='text/javascript' src='{{ "assets/js/main.js" | prepend: site.baseurl }}'></script>
+<script data-cfasync='false' type='text/javascript' src="https://apis.google.com/js/platform.js"></script>
 
 {% if site.development == false %}
 	{% if site.organization.google.analytics %}
@@ -19,7 +17,7 @@
 		<script data-cfasync='false' type='text/javascript'>
 			function googleTranslateElementInit() {
 				new google.translate.TranslateElement({
-					pageLanguage: 'en',
+					pageLanguage: 'pt',
 					includedLanguages: 'af,ar,bg,cs,de,el,en,eo,es,fa,fr,hu,id,it,ja,ko,la,lt,nl,pl,pt,ro,ru,sv,tr,uk,zh-CN,zh-TW',
 					layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
 					autoDisplay: false,
