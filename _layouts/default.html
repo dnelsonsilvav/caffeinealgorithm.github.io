@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 	{% include head.html %}
 
-	<body class='theme'>
-		{% include navigation.html %}
-		
-		<div class='wrap'>
-			<div class='masthead'>
-				<div class='container'>
-					<h3 class='masthead-title'>
-						<a href='{{ site.url }}' style="font-size: 1.2rem; font-weight: 600">{{ site.title }}</a>
-						<small>{{ site.description }}</small>
-					</h3>
-				</div>
-			</div>
+	<body>
+		{% include header.html %}
 
-			<div class='container content' style='text-align: justify'>
+		<div class="content-wrapper">
+			<div class="content-wrapper__inner">
 				{{ content }}
 			</div>
 
-			<div class='footer-wrapper'>
-				{% include footer.html %}
-			</div>
+			{% include footer.html %}
 		</div>
-
-		<label class='sidebar-toggle' for='sidebar-checkbox'></label>
 
 		{% include scripts.html %}
 	</body>
