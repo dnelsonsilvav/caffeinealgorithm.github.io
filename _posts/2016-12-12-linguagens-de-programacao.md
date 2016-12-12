@@ -1,5 +1,5 @@
 ---
-title: 'Linguagens de programação'
+title: 'Linguagens de Programação'
 date: 2016-12-12
 categories: [programação]
 tags: [universo, programação, algoritmo, programa, linguagem]
