@@ -8,8 +8,6 @@ development: false
 organization:
   name: 'Caffeine Algorithm'
   email: 'caffeinealgorithm@gmail.com'
-  facebook: 'caffeinealgorithm'
-  twitter: 'caffealgorithm'
   google:
     youtube-id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
     youtube-name: 'CaffeineAlgorithm'
@@ -26,11 +24,10 @@ organization:
 author:
   name: 'Nelson Silva'
   avatar: 'avatar.png'
-  email: 'devwop@outlook.com'
-  bio: 'Um programador que respira cafeína.'
-  facebook: 'devwopunderscore'
-  linkedin: 'devwop'
-  github: 'devwop'
+  email: 'contact@dnelsonsilvav.com'
+  bio: 'The Worst Full Stack Developer'
+  linkedin: 'dnelsonsilvav'
+  github: 'dnelsonsilvav'
 
 defaults:
   -
@@ -50,5 +47,5 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 exclude: ['README.md']
