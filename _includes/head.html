@@ -33,4 +33,16 @@
 
 	<link rel='stylesheet' href='{{ 'assets/css/styles.css' | prepend: site.baseurl }}'/>
 	<link rel='canonical' href='{{ page.url | replace:"index.html", "" | prepend: site.baseurl | prepend: site.url }}'/>
+
+	{% if site.organization.google.ad-client %}
+		{% if site.development == false %}
+			<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({
+					google_ad_client: '{{ site.organization.google.ad-client }}',
+					enable_page_level_ads: true
+				});
+			</script>
+		{% endif %}
+	{% endif %}
 </head>
