@@ -1,13 +1,13 @@
 title: 'Caffeine Algorithm'
 description: 'Uma organização de desenvolvimento que ama cafeína e algoritmos.'
-url: 'http://caffeinealgorithm.com/'
+url: 'https://caffeinealgorithm.com/'
 baseurl: '/'
 
 development: false
 
 organization:
   name: 'Caffeine Algorithm'
-  email: 'caffeinealgorithm@gmail.com'
+  email: 'caffeinealgorithm@dnelsonsilvav.com'
   google:
     youtube-id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
     youtube-name: 'CaffeineAlgorithm'
@@ -30,12 +30,11 @@ author:
   github: 'dnelsonsilvav'
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
 
 destination: _site
 paginate: 5
