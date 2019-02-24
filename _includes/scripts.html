@@ -1,47 +1,55 @@
-<script data-cfasync='false' type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-<script data-cfasync='false' type='text/javascript' src="https://apis.google.com/js/platform.js"></script>
+<script
+  data-cfasync="false"
+  type="text/javascript"
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+></script>
+<script
+  data-cfasync="false"
+  type="text/javascript"
+  src="{{ 'assets/js/main.js' | prepend: site.baseurl }}"
+></script>
+<script
+  data-cfasync="false"
+  type="text/javascript"
+  src="https://apis.google.com/js/platform.js"
+></script>
 
-{% if site.development == false %}
-	{% if site.organization.google.analytics %}
-		<script data-cfasync='false' type='text/javascript'>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', '{{ site.organization.google.analytics }}', 'auto');
-			ga('send', 'pageview');
-		</script>
-
-		<script data-cfasync='false' type='text/javascript'>
-			function googleTranslateElementInit() {
-				new google.translate.TranslateElement({
-					pageLanguage: 'pt',
-					includedLanguages: 'af,ar,bg,cs,de,el,en,eo,es,fa,fr,hu,id,it,ja,ko,la,lt,nl,pl,pt,ro,ru,sv,tr,uk,zh-CN,zh-TW',
-					layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-					autoDisplay: false,
-					gaTrack: true,
-					gaId: '{{ site.organization.google.analytics }}'
-				}, 'google_translate_element');
-			};
-		</script>
-		<script data-cfasync='false' type='text/javascript' src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
-	{% endif %}
-
-	{% if site.organization.statcounter.project and site.organization.statcounter.security %}
-		<script data-cfasync='false' type='text/javascript'>
-			var sc_project = {{ site.organization.statcounter.project }};
-			var sc_invisible = 1;
-			var sc_security = '{{ site.organization.statcounter.security }}';
-			var scJsHost = (('https:' == document.location.protocol) ? 'https://secure.' : 'http://www.');
-			document.write('<script type="text/javascript" src="' + scJsHost + 'statcounter.com/counter/counter.js"></' + 'script>');
-		</script>
-		<noscript>
-			<div class='statcounter'>
-				<a title='shopify analytics ecommerce' href='http://statcounter.com/shopify/' target='_blank'>
-					<img class='statcounter' src='//c.statcounter.com/{{ site.organization.statcounter.project }}/0/{{ site.organization.statcounter.security }}/1/' alt='shopify analytics ecommerce'>
-				</a>
-			</div>
-		</noscript>
-	{% endif %}
-{% endif %}
+{% if site.development == false %} {% if site.organization.google.analytics %}
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{
+    site.organization.google.analytics
+  }}"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+  gtag('config', '{{ site.organization.google.analytics }}');
+</script>
+{% endif %} {% if site.organization.statcounter.project and
+site.organization.statcounter.security %}
+<script type="text/javascript">
+  var sc_project={{ site.organization.statcounter.project }};
+  var sc_invisible=1;
+  var sc_security="{{ site.organization.statcounter.security }}";
+</script>
+<script
+  type="text/javascript"
+  src="https://www.statcounter.com/counter/counter.js"
+  async
+></script>
+<noscript
+  ><div class="statcounter">
+    <a title="Web Analytics" href="https://statcounter.com/" target="_blank"
+      ><img
+        class="statcounter"
+        src="https://c.statcounter.com//{{
+          site.organization.statcounter.project
+        }}/0/{{ site.organization.statcounter.security }}/1/"
+        alt="Web Analytics"
+    /></a></div
+></noscript>
+{% endif %} {% endif %}
