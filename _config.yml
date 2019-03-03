@@ -1,5 +1,6 @@
 title: 'Caffeine Algorithm'
-description: 'Uma organização de desenvolvimento que ama cafeína e algoritmos.'
+description: 'A development organization that loves caffeine and algorithms.'
+keywords: 'caffeine algorithm, development, organization, caffeine, algoritms, python, csharp, java, go, html5, css3, android'
 url: 'https://caffeinealgorithm.com/'
 baseurl: '/'
 
@@ -8,26 +9,32 @@ development: false
 organization:
   name: 'Caffeine Algorithm'
   email: 'caffeinealgorithm@dnelsonsilvav.com'
-  google:
-    youtube-id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
-    youtube-name: 'CaffeineAlgorithm'
-    analytics: 'UA-76965623-1'
-    verify: 'PzIlkM39R3Rge8hCIadoA8kumI2YEbEJWKZL51jWpnM'
-    ad-client: 'ca-pub-9627952229249296'
-    ad-footer-slot: 9153729361
-    ad-sidebar-slot: 6620248568
-  github: 'caffeinealgorithm'
-  statcounter:
-    project: 10935538
-    security: '0176ef5d'
+  youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
+  youtube_name: 'CaffeineAlgorithm'
+  linkedin: 'caffeinealgorithm'
 
 author:
   name: 'Nelson Silva'
-  avatar: 'avatar.jpg'
+  username: 'dnelsonsilvav'
+  date_of_birth: 'July 5, 1995'
+  phone_number: '+351912585091'
+  location: 'Porto, Portugal'
   email: 'contact@dnelsonsilvav.com'
-  bio: 'The Worst Full Stack Developer'
+  bio: 'The Worst Full Stack/Blockchain Developer'
   linkedin: 'dnelsonsilvav'
   github: 'dnelsonsilvav'
+  instagram: 'dnelsonsilvav'
+  twitter: 'dnelsonsilvav'
+
+google:
+  analytics: 'UA-76965623-1'
+  verify: 'PzIlkM39R3Rge8hCIadoA8kumI2YEbEJWKZL51jWpnM'
+  ad_client: 'ca-pub-9627952229249296'
+  ad_footer_slot: 9153729361
+
+statcounter:
+  project: 10935538
+  security: '0176ef5d'
 
 defaults:
   - scope:
