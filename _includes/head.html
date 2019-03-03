@@ -1,48 +1,39 @@
 <head>
-	<meta charset='utf-8'/>
-	<meta name='viewport' content='width=device-width initial-scale=1'/>
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+  <meta charset="utf-8" />
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta name="organization" content="{{ site.organization.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
 
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-	<meta name='organization' content='{{ site.organization.name }}'/>
-	<meta name='description' content='{{ site.description }}'/>
-	<meta name='author' content='{{ site.author.name }}'/>
-	<meta name='HandheldFriendly' content='True'/>
-	<meta name='MobileOptimized' content='320'/>
-	<meta name='apple-mobile-web-app-capable' content='yes'/>
-	<meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'/>
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+  {% if site.development == false %} {% if site.google.verify %}
+  <meta name="google-site-verification" content="{{ site.google.verify }}" />
+  {% endif %} {% endif %}
 
-	{% if site.organization.google.verify %}
-		<meta name='google-site-verification' content='{{ site.organization.google.verify }}'/>
-	{% endif %}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
 
-	<meta name='twitter:card' content='summary'/>
-	<meta name='twitter:title' content='{{ site.title }}'/>
-	<meta name='twitter:description' content='{{ site.description }}'/>
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
 
-	<meta property='og:type' content='article'/>
-	<meta property='og:title' content='{{ site.title }}'/>
-	<meta property='og:description' content='{{ site.description }}'/>
+  <link
+    rel="shortcut icon"
+    href="{{ 'assets/img/favicon.png' | prepend: site.baseurl }}"
+  />
 
-	<meta name='msapplication-TileImage' content='{{ 'assets/img/favicons/mstile-150x150.png' | prepend: site.baseurl }}'/>
-	<meta name='msapplication-TileColor' content='#ffffff'/>
-	<meta name='theme-color' content='#ffffff'/>
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:&quot;index.html&quot;, &quot;&quot; | prepend: site.baseurl | prepend: site.url }}"
+  />
 
-	<link rel='shortcut icon' href='{{ 'assets/img/favicon.png' | prepend: site.baseurl }}'/>
-
-	<link rel='stylesheet' href='{{ 'assets/css/styles.css' | prepend: site.baseurl }}'/>
-	<link rel='canonical' href='{{ page.url | replace:"index.html", "" | prepend: site.baseurl | prepend: site.url }}'/>
-
-	<!-- {% if site.organization.google.ad-client %}
-		{% if site.development == false %}
-			<script async src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({
-					google_ad_client: '{{ site.organization.google.ad-client }}',
-					enable_page_level_ads: true
-				});
-			</script>
-		{% endif %}
-	{% endif %} -->
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="{{ 'assets/css/styles.css' | prepend: site.baseurl }}"
+  />
 </head>

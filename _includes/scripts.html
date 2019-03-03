@@ -6,20 +6,13 @@
 <script
   data-cfasync="false"
   type="text/javascript"
-  src="{{ 'assets/js/main.js' | prepend: site.baseurl }}"
-></script>
-<script
-  data-cfasync="false"
-  type="text/javascript"
   src="https://apis.google.com/js/platform.js"
 ></script>
 
-{% if site.development == false %} {% if site.organization.google.analytics %}
+{% if site.development == false %} {% if site.google.analytics %}
 <script
   async
-  src="https://www.googletagmanager.com/gtag/js?id={{
-    site.organization.google.analytics
-  }}"
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.google.analytics }}"
 ></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -27,14 +20,13 @@
     dataLayer.push(arguments);
   }
   gtag('js', new Date());
-  gtag('config', '{{ site.organization.google.analytics }}');
+  gtag('config', '{{ site.google.analytics }}');
 </script>
-{% endif %} {% if site.organization.statcounter.project and
-site.organization.statcounter.security %}
+{% endif %} {% if site.statcounter.project and site.statcounter.security %}
 <script type="text/javascript">
-  var sc_project={{ site.organization.statcounter.project }};
+  var sc_project={{ site.statcounter.project }};
   var sc_invisible=1;
-  var sc_security="{{ site.organization.statcounter.security }}";
+  var sc_security="{{ site.statcounter.security }}";
 </script>
 <script
   type="text/javascript"
@@ -46,9 +38,9 @@ site.organization.statcounter.security %}
     <a title="Web Analytics" href="https://statcounter.com/" target="_blank"
       ><img
         class="statcounter"
-        src="https://c.statcounter.com//{{
-          site.organization.statcounter.project
-        }}/0/{{ site.organization.statcounter.security }}/1/"
+        src="https://c.statcounter.com//{{ site.statcounter.project }}/0/{{
+          site.statcounter.security
+        }}/1/"
         alt="Web Analytics"
     /></a></div
 ></noscript>

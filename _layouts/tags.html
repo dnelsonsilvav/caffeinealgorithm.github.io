@@ -4,23 +4,21 @@ layout: default
 
 <h2>Tags:</h2>
 <div class="tags">
-	{% for tagitem in site.tags  %}
-		<a href="#{{ tagitem[0] }}">{{ tagitem[0] }}</a>
-	{% endfor %}
+  {% for tagitem in site.tags %}
+  <a href="#{{ tagitem[0] }}">{{ tagitem[0] }}</a>
+  {% endfor %}
 </div>
 
 {% for tagitem in site.tags %}
-	<div id="{{ tagitem[0] }}">
-		<h3> {{ tagitem[0] }} </h3>
+<div id="{{ tagitem[0] }}">
+  <h3>{{ tagitem[0] }}</h3>
 
-		<ul>
-			{% for post in site.posts %}
-				{% if post.tags contains tagitem[0] %}
-					<li>
-						<a href="{{ post.url }}">{{ post.title }}</a>
-					</li>
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
+  <ul>
+    {% for post in site.posts %} {% if post.tags contains tagitem[0] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</div>
 {% endfor %}

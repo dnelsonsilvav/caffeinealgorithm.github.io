@@ -2,34 +2,37 @@
 layout: default
 ---
 
-{% assign month = page.date | date: "%-m" %}
-{% capture months %}
-	{% case month %}
-		{% when '1' %}Janeiro
-		{% when '2' %}Fevereiro
-		{% when '3' %}Março
-		{% when '4' %}Abril
-		{% when '5' %}Maio
-		{% when '6' %}Junho
-		{% when '7' %}Julho
-		{% when '8' %}Agosto
-		{% when '9' %}Setembro
-		{% when '10' %}Outubro
-		{% when '11' %}Novembro
-		{% when '12' %}Dezembro
-	{% endcase %}
-{% endcapture %}
+{% assign month = page.date | date: "%-m" %} {% capture months %} {% case month
+%} {% when '1' %}Janeiro {% when '2' %}Fevereiro {% when '3' %}Março {% when '4'
+%}Abril {% when '5' %}Maio {% when '6' %}Junho {% when '7' %}Julho {% when '8'
+%}Agosto {% when '9' %}Setembro {% when '10' %}Outubro {% when '11' %}Novembro
+{% when '12' %}Dezembro {% endcase %} {% endcapture %}
 
 <article class="post-container post-container--single">
-	<header class="post-header">
-		<div class="post-meta">
-			<time datetime="{{ page.date | date: "%-d" }} {{ months }} | {{ page.date | date: "%Y" }}" class="post-meta__date date">{{ page.date | date: "%-d" }} {{ months }} | {{ page.date | date: "%Y" }}</time> &#8226; <span class="post-meta__tags">em {% for tag in page.tags %}<a href="{{ site.baseurl }}tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
-		</div>
+  <header class="post-header">
+    <div class="post-meta">
+      <time
+        datetime="{{ page.date | date: '%-d' }} {{ months }} | {{
+          page.date | date: '%Y'
+        }}"
+        class="post-meta__date date"
+        >{{ page.date | date: '%-d' }} {{ months }} |
+        {{ page.date | date: '%Y' }}</time
+      >
+      &#8226;
+      <span class="post-meta__tags"
+        >em {% for tag in page.tags %}<a
+          href="{{ site.baseurl }}tags/#{{ tag }}"
+          >{{ tag }}</a
+        >
+        {% endfor %}</span
+      >
+    </div>
 
-		<h1 class="post-title">{{ page.title }}</h1>
-	</header>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
-	<section class="post">
-		{{ content }}
-	</section>
+  <section class="post">
+    {{ content }}
+  </section>
 </article>
