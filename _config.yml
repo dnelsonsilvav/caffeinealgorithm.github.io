@@ -8,23 +8,23 @@ development: false
 
 organization:
   name: 'Caffeine Algorithm'
-  email: 'caffeinealgorithm@dnelsonsilvav.com'
+  email: 'caffeinealgorithm@imnelsonsilva.com'
   youtube_id: 'UCdt_qK8rmpxrq942ZFIqxvQ'
   youtube_name: 'CaffeineAlgorithm'
   linkedin: 'caffeinealgorithm'
 
 author:
   name: 'Nelson Silva'
-  username: 'dnelsonsilvav'
+  username: 'imnelsonsilva'
   date_of_birth: 'July 5, 1995'
   phone_number: '+351912585091'
   location: 'Porto, Portugal'
-  email: 'contact@dnelsonsilvav.com'
+  email: 'contact@imnelsonsilva.com'
   bio: 'The Worst Full Stack/Blockchain Developer'
-  linkedin: 'dnelsonsilvav'
-  github: 'dnelsonsilvav'
-  instagram: 'dnelsonsilvav'
-  twitter: 'dnelsonsilvav'
+  linkedin: 'imnelsonsilva'
+  github: 'imnelsonsilva'
+  instagram: 'imnelsonsilva'
+  twitter: 'imnelsonsilva'
 
 google:
   analytics: 'UA-76965623-1'
