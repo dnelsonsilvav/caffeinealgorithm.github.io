@@ -30,7 +30,7 @@ google:
   analytics: 'UA-76965623-1'
   verify: 'IbdqgDuSqKIZcqbFuLdJIYqliUXDuMSMkW_HlWm_mDw'
   ad_client: 'ca-pub-9627952229249296'
-  ad_footer_slot: 9153729361
+  ad_header_slot: 9153729361
 
 statcounter:
   project: 10935538
