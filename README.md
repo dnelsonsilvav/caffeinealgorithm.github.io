@@ -2,7 +2,7 @@
 
 A beautiful website that uses Jekyll (there's no blog anymore) to represent my organization with a beautiful cover and some actions (hosted with GitHub Pages)
 
-### How to set everything up (assuming that you have Node installed - Yarn is optional)
+### How to set everything up
 
 - Open your terminal `:)`
 - Clone the repository
