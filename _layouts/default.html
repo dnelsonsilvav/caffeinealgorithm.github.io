@@ -2,13 +2,11 @@
 <html>
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
-
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        {{ content }}
-      </div>
+  <body class="is-preload">
+    <div id="wrapper">
+      <section id="main">
+        {% include header.html %} {% include icons.html %}
+      </section>
 
       {% include footer.html %}
     </div>

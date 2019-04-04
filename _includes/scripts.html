@@ -1,13 +1,16 @@
-<script
-  data-cfasync="false"
-  type="text/javascript"
-  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-></script>
-<script
-  data-cfasync="false"
-  type="text/javascript"
-  src="https://apis.google.com/js/platform.js"
-></script>
+<script>
+  if ('addEventListener' in window) {
+    window.addEventListener('load', function() {
+      document.body.className = document.body.className.replace(
+        /\bis-preload\b/,
+        ''
+      );
+    });
+    document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+      ? ' is-ie'
+      : '';
+  }
+</script>
 
 {% if site.development == false %} {% if site.google.analytics %}
 <script
