@@ -1,6 +1,6 @@
 title: 'Caffeine Algorithm'
-description: 'A development organization that loves caffeine and algorithms.'
-keywords: 'caffeine algorithm, development, organization, caffeine, algoritms, python, csharp, java, go, html5, css3, android'
+description: 'Uma organização de desenvolvimento que ama cafeína e algoritmos.'
+keywords: 'caffeine algorithm, desenvolvimento, organização, cafeína, algoritmos, python, csharp, java, go, html5, css3, android'
 url: 'https://caffeinealgorithm.com/'
 baseurl: '/'
 
@@ -25,33 +25,16 @@ author:
   github: 'imnelsonsilva'
   instagram: 'imnelsonsilva'
   twitter: 'imnelsonsilva'
+  website: 'https://imnelsonsilva.com/'
 
 google:
   analytics: 'UA-76965623-1'
   verify: 'IbdqgDuSqKIZcqbFuLdJIYqliUXDuMSMkW_HlWm_mDw'
   ad_client: 'ca-pub-9627952229249296'
-  ad_header_slot: 9153729361
+  ad_footer_slot: 9153729361
 
 statcounter:
   project: 10935538
   security: '0176ef5d'
 
-defaults:
-  - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: 'post'
-
-destination: _site
-paginate: 5
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-plugins: ['jekyll-paginate']
 exclude: ['README.md']
