@@ -26,17 +26,6 @@
     </li>
   </ul>
 
-  {% if site.organization.youtube_id %}
-  <div
-    class="g-ytsubscribe"
-    data-channelid="{{ site.organization.youtube_id }}"
-    data-layout="default"
-    data-count="default"
-  ></div>
-  {% endif %}
-
-  <br />
-
   {% if site.google.ad_client and site.google.ad_footer_slot %} {% if
   site.development == false %} {% include ad-footer.html %} {% endif %} {% endif
   %}
