@@ -8,23 +8,23 @@ development: false
 
 organization:
   name: 'Caffeine Algorithm'
-  email: 'caffeinealgorithm@imnelsonsilva.com'
+  email: 'caffeinealgorithm@codenelsongslv.com'
   youtube_name: 'CaffeineAlgorithm'
   linkedin: 'caffeinealgorithm'
 
 author:
   name: 'Nelson Silva'
-  username: 'imnelsonsilva'
+  username: 'codenelsongslv'
   date_of_birth: 'July 5, 1995'
-  phone_number: '+351912585091'
+  phone_number: '+351914434573'
   location: 'Porto, Portugal'
-  email: 'contact@imnelsonsilva.com'
-  bio: 'The Worst Full Stack/Blockchain Developer'
-  linkedin: 'imnelsonsilva'
-  github: 'imnelsonsilva'
-  instagram: 'imnelsonsilva'
-  twitter: 'imnelsonsilva'
-  website: 'https://imnelsonsilva.com/'
+  email: 'contact@codenelsongslv.com'
+  bio: 'A human. Being. Coffee lover.'
+  linkedin: 'codenelsongslv'
+  github: 'codenelsongslv'
+  instagram: 'codenelsongslv'
+  twitter: 'codenelsongslv'
+  website: 'https://codenelsongslv.com/'
 
 google:
   analytics: 'UA-76965623-1'
