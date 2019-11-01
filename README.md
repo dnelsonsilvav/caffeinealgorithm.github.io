@@ -6,7 +6,7 @@ A beautiful website that uses Jekyll (there's no blog anymore) to represent my o
 
 - Open your terminal `:)`
 - Clone the repository
-  - `git clone https://github.com/codenelsongslv/caffeinealgorithm.github.io.git`
+  - `git clone https://github.com/nscodev/caffeinealgorithm.github.io.git`
 - Enter to the repository directory
   - `cd caffeinealgorithm.github.io`
 - Install **Jekyll** (proceed to the next step if you already have it installed)

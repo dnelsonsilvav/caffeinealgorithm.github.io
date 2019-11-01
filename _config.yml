@@ -1,6 +1,6 @@
 title: 'Caffeine Algorithm'
 description: 'Uma organização de desenvolvimento que ama cafeína e algoritmos.'
-keywords: 'caffeine algorithm, desenvolvimento, organização, cafeína, algoritmos, python, c#, java, android, html, css, go, javascript, ruby, codenelsongslv, nelson silva'
+keywords: 'caffeine algorithm, desenvolvimento, organização, cafeína, algoritmos, python, c#, java, android, html, css, go, javascript, ruby, nscodev, nelson silva'
 url: 'https://caffeinealgorithm.com/'
 baseurl: '/'
 
@@ -14,17 +14,17 @@ organization:
 
 author:
   name: 'Nelson Silva'
-  username: 'codenelsongslv'
+  username: 'nscodev'
   date_of_birth: 'July 5, 1995'
   phone_number: '+351914434573'
   location: 'Porto, Portugal'
-  email: 'contact@codenelsongslv.com'
+  email: 'contact@nscodev.com'
   bio: 'A human. Being. Coffee lover.'
-  linkedin: 'codenelsongslv'
-  github: 'codenelsongslv'
-  instagram: 'codenelsongslv'
-  twitter: 'codenelsongslv'
-  website: 'https://codenelsongslv.com/'
+  linkedin: 'nscodev'
+  github: 'nscodev'
+  instagram: 'nscodev'
+  twitter: 'nscodev'
+  website: 'https://nscodev.com/'
 
 google:
   analytics: 'UA-76965623-1'
